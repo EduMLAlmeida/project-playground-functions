@@ -64,13 +64,43 @@ function generatePhoneNumber(array) {
 }
 
 // Desafio 12
-function triangleCheck() {
-  // seu código aqui
+function triangleCheck(lineA, lineB, lineC) {
+  let result = true;
+  
+  if (lineA >= (lineB + lineC)) {
+    result = false;
+  } else if (lineB > (lineA + lineC)) {
+    result = false;
+  } else if (lineC > (lineA + lineB)) {
+    result = false;
+  }
+
+  return result;
 }
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(string) {
+  let caracteresSeparados = string.split('');
+  
+  let caracteresNumber = [];
+
+  let sumNumbers = 0;
+
+  for (let value of caracteresSeparados) {
+    caracteresNumber.push(parseInt(value, 10))
+  }
+
+  for (let value2 of caracteresNumber) {    
+    if (Number.isSafeInteger(value2) === true) {
+     sumNumbers += value2;
+    }
+  } 
+
+  if (sumNumbers === 1) {
+    return sumNumbers + ' copo de água'
+  } else {
+    return sumNumbers + ' copos de água'
+  }
 }
 
 module.exports = {
