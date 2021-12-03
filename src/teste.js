@@ -1,23 +1,18 @@
-function encode(string) {
-    let caracteresSeparados = string.split('');
+function generatePhoneNumber(array) {  
   
-    for (let index; index < caracteresSeparados.length; index += 1) {
-      if (caracteresSeparados[index] === 'a') {
-        caracteresSeparados[index] = '1';
-      } else if (caracteresSeparados[index] === 'e') {
-        caracteresSeparados[index] = '2';
-      } else if (caracteresSeparados[index] === 'i') {
-        caracteresSeparados[index] = '3';
-      } else if (caracteresSeparados[index] === 'o') {
-        caracteresSeparados[index] = '4';
-      } else if (caracteresSeparados[index] === 'u') {
-        caracteresSeparados[index] = '5';
+
+  for (index in array) {
+    let repeatTest = [];
+
+    for (index2 in array) {
+      if (array[index] === array[index2]) {        
+        repeatTest.push(array[index]);
       }
     }
-  
-    return caracteresSeparados.join('')
+
+    if
   }
+}
+let arrayTeste = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 9];
 
-let teste = 'This is an encoding test.';
-
-encode(teste)
+generatePhoneNumber(arrayTeste);
