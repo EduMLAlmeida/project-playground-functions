@@ -1,5 +1,6 @@
 // Desafio 1
 function compareTrue(parametroTeste1, parametroTeste2) {
+  // seu código aqui
   if (parametroTeste1 === true && parametroTeste2 === true) {
     return true;
   } else {
@@ -9,26 +10,31 @@ function compareTrue(parametroTeste1, parametroTeste2) {
 
 // Desafio 2
 function calcArea(base, height) {
+  // seu código aqui
   return (base*height)/2;
 }
 
 // Desafio 3
 function splitSentence(string) {
+  // seu código aqui
   return string.split(' ');
 }
 
 // Desafio 4
 function concatName(array) {
+  // seu código aqui
   return array[array.length -1] + ", " + array[0];
 }
 
 // Desafio 5
 function footballPoints(wins, ties) {
+  // seu código aqui
   return (wins*3) + ties;
 }
 
 // Desafio 6
 function highestCount(array) {
+  // seu código aqui
   let maiorValor = array[0];
 
   let quantidadeVezes = 0;
@@ -50,6 +56,7 @@ function highestCount(array) {
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
+  // seu código aqui
   distanciaCat1 = 0;
   
   distanciaCat2 = 0;
@@ -81,6 +88,7 @@ function catAndMouse(mouse, cat1, cat2) {
 
 // Desafio 8
 function fizzBuzz(array) {
+  // seu código aqui
   let resultado = [];
 
   for (index of array) {
@@ -100,6 +108,7 @@ function fizzBuzz(array) {
 
 // Desafio 9
 function encode(string) {
+  // seu código aqui
   let caracteresSeparados = string.split('');
 
   for (let index = 0; index < caracteresSeparados.length; index += 1) {
@@ -118,7 +127,9 @@ function encode(string) {
 
   return caracteresSeparados.join('')
 }
+
 function decode(string) {
+  // seu código aqui
   let caracteresSeparados = string.split('');
 
   for (let index = 0; index < caracteresSeparados.length; index += 1) {

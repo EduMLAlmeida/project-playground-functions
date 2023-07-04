@@ -1,5 +1,6 @@
 // Desafio 10
 function techList(array, name) {
+  // seu código aqui
   let techOrdenado = array.sort();
 
   let listaTech = [];
@@ -20,6 +21,7 @@ function techList(array, name) {
 
 // Desafio 11
 function generatePhoneNumber(array) {
+  // seu código aqui
   let test = true;
 
   for (value of array) {
@@ -65,6 +67,7 @@ function generatePhoneNumber(array) {
 
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
+  // seu código aqui
   let result = true;
   
   if (lineA >= (lineB + lineC)) {
@@ -80,6 +83,7 @@ function triangleCheck(lineA, lineB, lineC) {
 
 // Desafio 13
 function hydrate(string) {
+  // seu código aqui
   let caracteresSeparados = string.split('');
   
   let caracteresNumber = [];
