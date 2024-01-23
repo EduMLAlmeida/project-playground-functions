@@ -20,7 +20,7 @@ O objetivo desse projeto foi desenvolver funções, aplicando os conhecimentos a
 - Quebrar grandes problemas em pequenos;
 - Utilizar a lógica de programação na resolução de problemas;
 - Manipular objetos;
-- Utilizar funções para organizar e estruturar o seu código;
+- Utilizar funções para organizar e estruturar o seu código.
 
 ## Requisitos especificados pela Trybe
 
